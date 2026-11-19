@@ -128,6 +128,7 @@ USE_TZ = True
 
 from pathlib import Path
 STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 BASE_DIR = Path(__file__).resolve().parent.parent
 STATICFILES_DIRS = [ BASE_DIR / 'images', ]
 
